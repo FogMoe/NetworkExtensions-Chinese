@@ -22,7 +22,7 @@ namespace Transit.Addon.RoadExtensions.Roads.TinyRoads.Oneway1LParking
         public string Name { get { return NAME; } }
         public string DisplayName { get { return NAME; } }
         public string CodeName { get { return "Oneway1LParking"; } }
-        public string Description { get { return "A one-lane, oneway road suitable for neighborhood traffic. Has parking spaces"; } }
+        public string Description { get { return "一条带有停车带的单条单行车道。可承受低交通流量。"; } }
         public string ShortDescription { get { return "Zoneable, neighborhood traffic"; } }
         public string UICategory { get { return RExExtendedMenus.ROADS_TINY; } }
 
