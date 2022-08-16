@@ -8,8 +8,8 @@
     <ProjectGuid>{2D3B89B2-5C70-458F-B3E8-3A3A6898646D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NetworkExtensions2</RootNamespace>
-    <AssemblyName>NetworkExtensions2</AssemblyName>
+    <RootNamespace>NetworkExtensions2_zhCN</RootNamespace>
+    <AssemblyName>NetworkExtensions2-zhCN</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -56,13 +56,13 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="ObjUnity3D">
-      <HintPath>..\References\ObjUnity3D.dll</HintPath>
+      <HintPath>..\ObjUnity3D\bin\Debug\ObjUnity3D.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>D:\Program Files\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>D:\Steam\steamapps\common\Cities_Skylines\Cities_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

@@ -11,12 +11,12 @@ namespace NetworkExtensions
     {
         public override string Name
         {
-            get { return "Network Extensions 2"; }
+            get { return "网格拓展2 (Network Extensions 2)"; }
         }
 
         public override string Description
         {
-            get { return "A continuation of the successful Network Extensions Project"; }
+            get { return "最新版中文汉化 (A continuation of the successful Network Extensions Project)"; }
         }
 
         public override string Version
