@@ -14,7 +14,7 @@ namespace Transit.Addon.RoadExtensions.Roads.Highways.Highway6L
 
         public string BasedPrefabName { get { return NetInfos.Vanilla.ONEWAY_6L; } }
         public string Name { get { return "Large Highway"; } }
-        public string DisplayName { get { return "Six-Lane Highway"; } }
+        public string DisplayName { get { return "六车道高速公路"; } }
         public string Description { get { return "A six-lane, one-way road suitable for very high and dense traffic between metropolitan areas. Lanes going the opposite direction need to be built separately. Highway does not allow zoning next to it!"; } }
         public string UICategory { get { return "RoadsHighway"; } }
         public string ShortDescription { get { return "No parking, not zoneable, very high traffic"; } }

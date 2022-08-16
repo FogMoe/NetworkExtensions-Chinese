@@ -15,7 +15,7 @@ namespace Transit.Addon.RoadExtensions.Roads.Highways.HighwayL1R2
 
         public string BasedPrefabName { get { return NetInfos.Vanilla.HIGHWAY_3L; } }
         public string Name { get { return "AsymHighwayL1R2"; } }
-        public string DisplayName { get { return "3 Lane Asymmetrical Highway: (1+2)"; } }
+        public string DisplayName { get { return "非对称三车道高速公路: (1+2)"; } }
         public string Description { get { return "An asymmetrical highway with one left lane and two right lanes.  Note, dragging this highway backwards reverses its orientation."; } }
         public string ShortDescription { get { return "No parking, not zoneable, medium to high traffic"; } }
         public string UICategory { get { return "RoadsHighway"; } }

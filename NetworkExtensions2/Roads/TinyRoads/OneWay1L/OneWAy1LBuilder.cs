@@ -12,7 +12,7 @@ namespace Transit.Addon.RoadExtensions.Roads.TinyRoads.Oneway1L
 {
     public class Oneway1LBuilder : Activable, INetInfoBuilderPart
     {
-        public const string NAME = "One-Lane Oneway";
+        public const string NAME = "单线单行道";
 
         public int Order { get { return 1; } }
         public int UIOrder { get { return 10; } }

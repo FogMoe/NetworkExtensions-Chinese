@@ -15,7 +15,7 @@ namespace Transit.Addon.RoadExtensions.Roads.Highways.Highway4L
 
         public string BasedPrefabName { get { return NetInfos.Vanilla.HIGHWAY_3L; } }
         public string Name { get { return "Four-Lane Highway"; } }
-        public string DisplayName { get { return "Four-Lane Highway"; } }
+        public string DisplayName { get { return "四车道高速公路"; } }
         public string Description { get { return "A four-lane, one-way road suitable for very high and dense traffic between metropolitan areas. Lanes going the opposite direction need to be built separately. Highway does not allow zoning next to it!"; } }
         public string ShortDescription { get { return "No parking, not zoneable, medium to high traffic"; } }
         public string UICategory { get { return "RoadsHighway"; } }

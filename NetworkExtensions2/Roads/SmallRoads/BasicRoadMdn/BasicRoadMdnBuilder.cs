@@ -13,7 +13,7 @@ namespace Transit.Addon.RoadExtensions.Roads.SmallRoads.BasicRoadMdn
         public int Order { get { return 9; } }
         public string BasedPrefabName { get { return NetInfos.Vanilla.ROAD_2L; } }
         public string Name { get { return "BasicRoadMdn"; } }
-        public string DisplayName { get { return "Basic Road with Median"; } }
+        public string DisplayName { get { return "双车道+中间绿化带公路"; } }
         public string ShortDescription { get { return "No parking, zoneable, low traffic"; } }
         public NetInfoVersion SupportedVersions { get { return NetInfoVersion.AllWithDecoration; } }
 

@@ -17,7 +17,7 @@ namespace Transit.Addon.RoadExtensions.Roads.PedestrianRoads.GravelTiny
 
         public const string NAME = "Zonable Pedestrian Gravel Tiny";
         public string Name { get { return NAME; } }
-        public string DisplayName { get { return "Zonable Pedestrian Gravel Tiny Road"; } }
+        public string DisplayName { get { return "双向砂砾小型窄人行道"; } }
         public string Description { get { return "Gravel roads allow pedestrians to walk fast and easy."; } }
         public string ShortDescription { get { return "Zoneable, No Passenger Vehicles [Traffic++ V2 required]"; } }
 

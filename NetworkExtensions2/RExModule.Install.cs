@@ -39,10 +39,10 @@ namespace Transit.Addon.RoadExtensions
 
             var locale = SingletonLite<LocaleManager>.instance.GetLocale();
 
-            locale.CreateMenuTitleLocalizedString(RExExtendedMenus.ROADS_TINY, "Tiny Roads");
-            locale.CreateMenuTitleLocalizedString(RExExtendedMenus.ROADS_SMALL_HV, "Small Heavy Roads");
-            locale.CreateMenuTitleLocalizedString(RExExtendedMenus.ROADS_BUSWAYS, "Buslane Roads");
-            locale.CreateMenuTitleLocalizedString(RExExtendedMenus.ROADS_PEDESTRIANS, "Pedestrian Roads");
+            locale.CreateMenuTitleLocalizedString(RExExtendedMenus.ROADS_TINY, "小型窄路");
+            locale.CreateMenuTitleLocalizedString(RExExtendedMenus.ROADS_SMALL_HV, "小型宽路");
+            locale.CreateMenuTitleLocalizedString(RExExtendedMenus.ROADS_BUSWAYS, "公交车道");
+            locale.CreateMenuTitleLocalizedString(RExExtendedMenus.ROADS_PEDESTRIANS, "人行道");
 
             var menuItemBuilders = new List<IMenuItemBuilder>();
             menuItemBuilders.AddRange(Parts.OfType<IMenuItemBuilder>());

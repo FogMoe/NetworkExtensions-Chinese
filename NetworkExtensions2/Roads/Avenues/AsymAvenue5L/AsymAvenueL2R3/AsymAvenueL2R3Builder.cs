@@ -15,7 +15,7 @@ namespace Transit.Addon.RoadExtensions.Roads.Avenues.AsymAvenue5L.AsymAvenueL2R3
 
         public string BasedPrefabName { get { return NetInfos.Vanilla.ROAD_6L; } }
         public string Name { get { return "AsymAvenueL2R3"; } }
-        public string DisplayName { get { return "Five-Lane Asymmetrical Road: (2+3)"; } }
+        public string DisplayName { get { return "非对称五车道道路: (2+3)"; } }
         public string Description { get { return "An asymmetrical road with two left lane and three right lanes.  Note, dragging this road backwards reverses its orientation."; } }
         public string ShortDescription { get { return "Parking, zoneable, medium to high traffic"; } }
         public string UICategory { get { return "RoadsMedium"; } }

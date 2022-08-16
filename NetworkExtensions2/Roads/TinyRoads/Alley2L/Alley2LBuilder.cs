@@ -12,7 +12,7 @@ namespace Transit.Addon.RoadExtensions.Roads.TinyRoads.Alley2L
 {
     public class Alley2LBuilder : Activable, INetInfoBuilderPart
     {
-        public const string NAME = "Two-Lane Alley";
+        public const string NAME = "双车道窄路";
 
         public int Order { get { return 0; } }
         public int UIOrder { get { return 5; } }

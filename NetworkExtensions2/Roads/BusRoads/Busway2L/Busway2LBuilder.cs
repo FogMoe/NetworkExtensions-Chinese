@@ -13,7 +13,7 @@ namespace Transit.Addon.RoadExtensions.Roads.BusRoads.Busway2L
     public class Busway2LBuilder : Activable, IMultiNetInfoBuilderPart
     {
         public string Name { get { return "Small Busway"; } }
-        public string DisplayName { get { return "[BETA] Busway"; } }
+        public string DisplayName { get { return "[BETA] 公交车专用道"; } }
         public string BasedPrefabName { get { return NetInfos.Vanilla.ROAD_2L; } }
         public int Order { get { return 110; } }
         public string ShortDescription { get { return "No parking, not zoneable, buses only [Traffic++ V2 required]"; } }

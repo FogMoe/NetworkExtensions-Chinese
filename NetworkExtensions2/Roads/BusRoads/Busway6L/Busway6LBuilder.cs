@@ -11,7 +11,7 @@ namespace Transit.Addon.RoadExtensions.Roads.BusRoads.Busway6L
     public class Busway6LBuilder : Activable, IMultiNetInfoBuilderPart
     {
         public string Name { get { return NetInfos.New.BUSWAY_6L; } }
-        public string DisplayName { get { return "[BETA] Bus Lanes for Six-Lane Road"; } }
+        public string DisplayName { get { return "[BETA] 公交车专用六车道"; } }
         public string BasedPrefabName { get { return NetInfos.Vanilla.ROAD_6L; } }
         public int Order { get { return 130; } }
         public string ShortDescription { get { return "Parking, zoneable, medium traffic, bus lanes"; } }
