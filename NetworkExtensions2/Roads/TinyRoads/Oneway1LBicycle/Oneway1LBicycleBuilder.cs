@@ -13,7 +13,7 @@ namespace Transit.Addon.RoadExtensions.Roads.TinyRoads.Oneway1LBicycle
 {
     public class Oneway1LBicycleBuilder : Activable, INetInfoBuilderPart, INetInfoLateBuilder
     {
-        public const string NAME = "单线单行道小巷+自行车道";
+        public const string NAME = "单线单行道+自行车道小巷";
 
         public SteamHelper.DLC RequiredDLC { get { return SteamHelper.DLC.AfterDarkDLC; } }
         public int Order { get { return 7; } }

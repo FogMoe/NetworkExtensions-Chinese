@@ -38,7 +38,7 @@ namespace Transit.Addon.RoadExtensions.Roads.BusRoads.Busway2L1W
                     UICategory = RExExtendedMenus.ROADS_BUSWAYS,
                     UIOrder = 21,
                     Name = "Small Busway OneWay Decoration Grass",
-                    DisplayName = "双线公共汽车专用单行道+绿化带",
+                    DisplayName = "双线公共汽车专用单行道+绿化带公路",
                     Description = "A two-lane, one-way road with decorative grass suitable for buses only. Busway does not allow zoning next to it!",
                     ThumbnailsPath = @"Roads\BusRoads\Busway2L1W\thumbnails_grass.png",
                     InfoTooltipPath = @"Roads\BusRoads\Busway2L1W\infotooltip_grass.png"
@@ -48,7 +48,7 @@ namespace Transit.Addon.RoadExtensions.Roads.BusRoads.Busway2L1W
                     UICategory = RExExtendedMenus.ROADS_BUSWAYS,
                     UIOrder = 22,
                     Name = "Small Busway OneWay Decoration Trees",
-                    DisplayName = "双线公共汽车专用单行道+行道树",
+                    DisplayName = "双线公共汽车专用单行道+行道树公路",
                     Description = "A two-lane, one-way road with decorative trees suitable for buses only. Busway does not allow zoning next to it!",
                     ThumbnailsPath = @"Roads\BusRoads\Busway2L1W\thumbnails_trees.png",
                     InfoTooltipPath = @"Roads\BusRoads\Busway2L1W\infotooltip_trees.png"

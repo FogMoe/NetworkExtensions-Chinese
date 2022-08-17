@@ -21,7 +21,7 @@ namespace NetworkExtensions
 
         public override string Version
         {
-            get { return "1.0.0"; }
+            get { return "2.0.0"; }
         }
 
         private const string NEXT_2_ID = "2849991534";

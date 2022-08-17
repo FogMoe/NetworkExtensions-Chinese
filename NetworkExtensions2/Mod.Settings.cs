@@ -9,12 +9,12 @@ namespace NetworkExtensions
     {
         protected override string SettingsFile
         {
-            get { return "NetworkExtensions2Config.xml"; }
+            get { return "NetworkExtensions2Config-zhCN.xml"; }
         }
 
         protected override string SettingsNode
         {
-            get { return "NetworkExtensions2"; }
+            get { return "NetworkExtensions2-zhCN"; }
         }
 
         private UIScrollablePanel _optionsPanel;
