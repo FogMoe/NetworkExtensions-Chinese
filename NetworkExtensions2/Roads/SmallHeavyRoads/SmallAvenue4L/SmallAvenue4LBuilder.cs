@@ -16,8 +16,8 @@ namespace Transit.Addon.RoadExtensions.Roads.SmallHeavyRoads.SmallAvenue4L
 
         public string BasedPrefabName { get { return NetInfos.Vanilla.ROAD_2L; } }
         public string Name { get { return "Small Avenue"; } }
-        public string DisplayName { get { return "小型四车道"; } }
-        public string Description { get { return "A four-lane road without parkings spaces. Supports medium traffic."; } }
+        public string DisplayName { get { return "小型四车道紧凑道路"; } }
+        public string Description { get { return "没有停车位的四车道道路。 支持中等交通流量。"; } }
         public string ShortDescription { get { return "No parking, zoneable, medium traffic"; } }
         public string UICategory { get { return RExExtendedMenus.ROADS_SMALL_HV; } }
 

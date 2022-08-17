@@ -19,8 +19,8 @@ namespace Transit.Addon.RoadExtensions.Roads.PedestrianRoads.Promenade
 
         public string BasedPrefabName { get { return NetInfos.Vanilla.ROAD_2L; } }
         public string Name { get { return "Zonable Promenade"; } }
-        public string DisplayName { get { return "小型双向人行道"; } }
-        public string Description { get { return "Promenade is only accessible to pedestrians, cyclists, and emergency vehicles"; } }
+        public string DisplayName { get { return "带长廊的双向人行道"; } }
+        public string Description { get { return "人行道旁边允许建设其他区块。长廊仅对行人、骑自行车者和紧急救援车辆开放"; } }
         public string ShortDescription { get { return "Zoneable, No Passenger Vehicles [AfterDark DLC AND Traffic++ V2 required]"; } }
         public string UICategory { get { return RExExtendedMenus.ROADS_PEDESTRIANS; } }
 

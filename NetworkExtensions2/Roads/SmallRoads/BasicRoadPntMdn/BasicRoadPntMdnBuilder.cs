@@ -16,7 +16,7 @@ namespace Transit.Addon.RoadExtensions.Roads.SmallRoads.BasicRoadPntMdn
         public string BasedPrefabName { get { return NetInfos.Vanilla.ROAD_2L; } }
         public string Name { get { return "BasicRoadPntMdn"; } }
         public string DisplayName { get { return "双车道公路+中央分隔线"; } }
-        public string Description { get { return "A basic two lane road with a painted median and no parkings spaces. Supports local traffic."; } }
+        public string Description { get { return "一条基本的双车道道路，有中央分隔线，没有停车位。支持低交通流量。"; } }
         public string ShortDescription { get { return "No parking, zoneable, low traffic"; } }
         public string UICategory { get { return "RoadsSmall"; } }
 

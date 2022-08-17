@@ -37,9 +37,9 @@ namespace NetworkExtensions
             {
                 if (module.Name == "Roads")
                 {
-                    addTab(strip, strip.tabCount, module, "小型窄路", "RoadsTiny");
+                    addTab(strip, strip.tabCount, module, "小巷", "RoadsTiny");
                     addTab(strip, strip.tabCount, module, "小型道路", "RoadsSmall");
-                    addTab(strip, strip.tabCount, module, "小型宽路", "RoadsSmallHV");
+                    addTab(strip, strip.tabCount, module, "小型紧凑道路", "RoadsSmallHV");
                     addTab(strip, strip.tabCount, module, "中型道路", "RoadsMedium");
                     addTab(strip, strip.tabCount, module, "大型道路", "RoadsLarge");
                     addTab(strip, strip.tabCount, module, "高速公路", "RoadsHighway");

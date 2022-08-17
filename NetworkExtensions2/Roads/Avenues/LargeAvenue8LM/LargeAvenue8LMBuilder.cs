@@ -20,7 +20,7 @@ namespace Transit.Addon.RoadExtensions.Roads.Avenues.LargeAvenue8LM
         public string BasedPrefabName { get { return NetInfos.Vanilla.ROAD_4L; } }
         public string Name { get { return "Eight-Lane Avenue"; } }
         public string DisplayName { get { return "八车道公路"; } }
-        public string Description { get { return "An eight-lane road with paved median. Supports heavy urban traffic."; } }
+        public string Description { get { return "一条八车道的道路，中间隔断。 可承受高交通流量。"; } }
         public string ShortDescription { get { return "No parking, zoneable, heavy urban traffic"; } }
         public string UICategory { get { return "RoadsLarge"; } }
 

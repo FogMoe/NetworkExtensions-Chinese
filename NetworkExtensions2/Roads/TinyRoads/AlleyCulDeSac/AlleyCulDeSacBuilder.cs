@@ -13,7 +13,7 @@ namespace Transit.Addon.RoadExtensions.Roads.TinyRoads.AlleyCulDeSac
 {
 	public class AlleyCulDeSacBuilder : Activable, INetInfoBuilderPart
 	{
-		public const string NAME = "Tiny Cul-De-Sac";
+		public const string NAME = "小巷";
 
 		public int Order { get { return 1; } }
 		public int UIOrder { get { return 10; } }

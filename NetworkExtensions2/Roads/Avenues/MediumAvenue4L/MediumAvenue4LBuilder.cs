@@ -15,7 +15,7 @@ namespace Transit.Addon.RoadExtensions.Roads.Avenues.MediumAvenue4L
         public string BasedPrefabName { get { return NetInfos.Vanilla.ROAD_6L; } }
         public string Name { get { return "Medium Avenue"; } }
         public string DisplayName { get { return "四车道公路"; } }     
-        public string Description { get { return "A four-lane road with parking spaces. Supports medium traffic."; } }
+        public string Description { get { return "有停车位的四车道道路。 可承受中等交通流量。"; } }
         public string ShortDescription { get { return "Parkings, zoneable, medium traffic"; } }
         public string UICategory { get { return "RoadsMedium"; } }
 

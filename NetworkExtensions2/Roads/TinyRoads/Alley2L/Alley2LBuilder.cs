@@ -12,7 +12,7 @@ namespace Transit.Addon.RoadExtensions.Roads.TinyRoads.Alley2L
 {
     public class Alley2LBuilder : Activable, INetInfoBuilderPart
     {
-        public const string NAME = "双车道窄路";
+        public const string NAME = "双车道小巷";
 
         public int Order { get { return 0; } }
         public int UIOrder { get { return 5; } }
@@ -21,7 +21,7 @@ namespace Transit.Addon.RoadExtensions.Roads.TinyRoads.Alley2L
         public string Name { get { return NAME; } }
         public string DisplayName { get { return NAME; } }
         public string CodeName { get { return "Alley_2L"; } }
-        public string Description { get { return "A two-lane, tight Alley suitable for neighborhood traffic."; } }
+        public string Description { get { return "适合邻里交通的两车道狭窄小巷。"; } }
         public string ShortDescription { get { return "No parking, zoneable, neighborhood traffic"; } }
         public string UICategory { get { return RExExtendedMenus.ROADS_TINY; } }
 

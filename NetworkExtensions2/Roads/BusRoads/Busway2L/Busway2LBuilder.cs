@@ -27,8 +27,8 @@ namespace Transit.Addon.RoadExtensions.Roads.BusRoads.Busway2L
                     UICategory = RExExtendedMenus.ROADS_BUSWAYS,
                     UIOrder = 10,
                     Name = "Small Busway",
-                    DisplayName = "[BETA] Busway",
-                    Description = "A two-lane, two-way road suitable for buses only. Busway does not allow zoning next to it!",
+                    DisplayName = "公共汽车专用道",
+                    Description = "仅适用于公共汽车的双车道双向道路。公共汽车专用道旁边不允许建设其他区块！",
                     ThumbnailsPath = @"Roads\BusRoads\Busway2L\thumbnails.png",
                     InfoTooltipPath = @"Roads\BusRoads\Busway2L\infotooltip.png"
                 };
@@ -37,8 +37,8 @@ namespace Transit.Addon.RoadExtensions.Roads.BusRoads.Busway2L
                     UICategory = RExExtendedMenus.ROADS_BUSWAYS,
                     UIOrder = 11,
                     Name = "Small Busway Decoration Grass",
-                    DisplayName = "[BETA] Busway with Grass",
-                    Description = "A two-lane, two-way road with decorative grass suitable for buses only. Busway does not allow zoning next to it!",
+                    DisplayName = "带有草坪的公共汽车专用道",
+                    Description = "一条双车道、双向的道路，带有装饰性草地，仅适用于公共汽车。公共汽车专用道旁边不允许建设其他区块！",
                     ThumbnailsPath = @"Roads\BusRoads\Busway2L\thumbnails_grass.png",
                     InfoTooltipPath = @"Roads\BusRoads\Busway2L\infotooltip_grass.png"
                 };
@@ -47,8 +47,8 @@ namespace Transit.Addon.RoadExtensions.Roads.BusRoads.Busway2L
                     UICategory = RExExtendedMenus.ROADS_BUSWAYS,
                     UIOrder = 12,
                     Name = "Small Busway Decoration Trees",
-                    DisplayName = "[BETA] Busway with Trees",
-                    Description = "A two-lane, two-way road with decorative trees suitable for buses only. Busway does not allow zoning next to it!",
+                    DisplayName = "带有行道树的公共汽车专用道",
+                    Description = "一条两车道、双向的道路，有装饰行道树，仅适用于公共汽车。 公共汽车专用道旁边不允许建设其他区块！",
                     ThumbnailsPath = @"Roads\BusRoads\Busway2L\thumbnails_trees.png",
                     InfoTooltipPath = @"Roads\BusRoads\Busway2L\infotooltip_trees.png"
                 };

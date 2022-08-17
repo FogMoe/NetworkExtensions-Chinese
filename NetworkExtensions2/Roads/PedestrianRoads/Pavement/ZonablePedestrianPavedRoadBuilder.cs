@@ -17,7 +17,7 @@ namespace Transit.Addon.RoadExtensions.Roads.PedestrianRoads.Pavement
         public string UICategory { get { return RExExtendedMenus.ROADS_PEDESTRIANS; } }
 
         public string Name { get { return "Zonable Pedestrian Pavement"; } }
-        public string DisplayName { get { return "Zonable Pedestrian Paved Road"; } }
+        public string DisplayName { get { return "双向砖石人行道"; } }
         public string Description { get { return "Paved roads are nicer to walk on than gravel."; } }
         public string ShortDescription { get { return "Zoneable, No Passenger Vehicles [Traffic++ V2 required]"; } }
 

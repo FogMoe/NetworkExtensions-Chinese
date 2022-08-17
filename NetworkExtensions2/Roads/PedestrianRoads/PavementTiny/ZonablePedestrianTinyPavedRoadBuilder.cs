@@ -17,8 +17,8 @@ namespace Transit.Addon.RoadExtensions.Roads.PedestrianRoads.PavementTiny
 
         public const string NAME = "Zonable Pedestrian Pavement Tiny";
         public string Name { get { return NAME; } }
-        public string DisplayName { get { return "小型砖石双向人行窄道"; } }
-        public string Description { get { return "Paved roads are nicer to walk on than gravel."; } }
+        public string DisplayName { get { return "双向砖石人行道"; } }
+        public string Description { get { return "人行道旁边允许建设其他区块。砖石道路比砾石路更适合行走。"; } }
         public string ShortDescription { get { return "Zoneable, No Passenger Vehicles [Traffic++ V2 required]"; } }
     
         public string ThumbnailsPath { get { return @"Roads\PedestrianRoads\PavementTiny\thumbnails.png"; } }

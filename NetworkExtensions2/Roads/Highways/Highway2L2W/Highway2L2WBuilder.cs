@@ -16,7 +16,7 @@ namespace Transit.Addon.RoadExtensions.Roads.Highways.Highway2L2W
         public string BasedPrefabName { get { return NetInfos.Vanilla.HIGHWAY_3L; } }
         public string Name { get { return "Highway2L2W"; } }
         public string DisplayName { get { return "四车道国道"; } }
-        public string Description { get { return "A four-lane national highway accommodating medium traffic. Highway does not allow zoning next to it!"; } }
+        public string Description { get { return "适合中等交通的四车道国道。 国道旁边不允许建设其他区块！"; } }
         public string ShortDescription { get { return "No parking, not zoneable, medium traffic"; } }
         public string UICategory { get { return "RoadsHighway"; } }
 

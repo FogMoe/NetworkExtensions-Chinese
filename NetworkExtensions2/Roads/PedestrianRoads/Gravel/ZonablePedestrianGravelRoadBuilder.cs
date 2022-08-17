@@ -19,7 +19,7 @@ namespace Transit.Addon.RoadExtensions.Roads.PedestrianRoads.Gravel
         public string UICategory { get { return RExExtendedMenus.ROADS_PEDESTRIANS; } }
 
         public string Name { get { return "Zonable Pedestrian Gravel"; } }
-        public string DisplayName { get { return "Zonable Pedestrian Gravel Road"; } }
+        public string DisplayName { get { return "双向砾石人行道"; } }
         public string Description { get { return "Gravel roads allow pedestrians to walk fast and easy."; } }
         public string ShortDescription { get { return "Zoneable, No Passenger Vehicles [Traffic++ V2 required]"; } }
 

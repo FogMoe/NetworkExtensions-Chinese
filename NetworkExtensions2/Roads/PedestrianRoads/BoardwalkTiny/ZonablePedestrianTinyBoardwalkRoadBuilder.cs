@@ -18,8 +18,8 @@ namespace Transit.Addon.RoadExtensions.Roads.PedestrianRoads.BoardwalkTiny
 
         public const string NAME = "Zonable Pedestrian Boardwalk Tiny";
         public string Name { get { return NAME; } }
-        public string DisplayName { get { return "小型木板双向人行窄道"; } }
-        public string Description { get { return "Boardwalks for mixed traffic.  Great for beaches and shopping districts."; } }
+        public string DisplayName { get { return "双向木板人行道"; } }
+        public string Description { get { return "人行道旁边允许建设其他区块。混合交通的木板路。 非常适合海滩和购物区。"; } }
         public string ShortDescription { get { return "Zoneable, No Passenger Vehicles [Traffic++ V2 required]"; } }
 
         public string ThumbnailsPath { get { return @"Roads\PedestrianRoads\BoardwalkTiny\thumbnails.png"; } }

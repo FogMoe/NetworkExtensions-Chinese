@@ -14,8 +14,8 @@ namespace Transit.Addon.RoadExtensions.Roads.SmallHeavyRoads.AsymRoadL1R2
 
         public string BasedPrefabName { get { return NetInfos.Vanilla.ROAD_2L; } }
         public string Name { get { return "AsymRoadL1R2"; } }
-        public string DisplayName { get { return "非对称三车道道路 (1+2)"; } }
-        public string Description { get { return "An asymmetrical road with one left lane and two right lanes.  Note: dragging this road backwards reverses its orientation."; } }
+        public string DisplayName { get { return "额外的非对称三车道道路"; } }
+        public string Description { get { return "一条不对称的道路，有一条左车道和两条右车道。 注意：向后拖动此道路会反转其方向。"; } }
         public string ShortDescription { get { return "No parking, zoneable, low traffic"; } }
         public string UICategory { get { return RExExtendedMenus.ROADS_SMALL_HV; } }
 

@@ -13,7 +13,7 @@ namespace Transit.Addon.RoadExtensions.Roads.TinyRoads.Oneway1LBicycle
 {
     public class Oneway1LBicycleBuilder : Activable, INetInfoBuilderPart, INetInfoLateBuilder
     {
-        public const string NAME = "单线单行道+自行车道";
+        public const string NAME = "单线单行道小巷+自行车道";
 
         public SteamHelper.DLC RequiredDLC { get { return SteamHelper.DLC.AfterDarkDLC; } }
         public int Order { get { return 7; } }
@@ -23,7 +23,7 @@ namespace Transit.Addon.RoadExtensions.Roads.TinyRoads.Oneway1LBicycle
         public string Name { get { return NAME; } }
         public string DisplayName { get { return NAME; } }
         public string CodeName { get { return "Oneway1LBicycle"; } }
-        public string Description { get { return "A one-lane, oneway road suitable for neighborhood traffic with two bicycle lanes"; } }
+        public string Description { get { return "适合社区交通的单车道单向道路，有两条自行车道"; } }
         public string ShortDescription { get { return "Zoneable, no parking, neighborhood traffic"; } }
         public string UICategory { get { return RExExtendedMenus.ROADS_TINY; } }
 

@@ -14,8 +14,8 @@ namespace Transit.Addon.RoadExtensions.Roads.Avenues.MediumAvenue4LTL
 
         public string BasedPrefabName { get { return NetInfos.Vanilla.ROAD_6L; } }
         public string Name { get { return "Medium Avenue TL"; } }
-        public string DisplayName { get { return "四车道公路+中央转向道"; } }
-        public string Description { get { return "A four-lane road with turning lanes and parking spaces. Supports medium traffic. Note: The turning lane goes in both directions so collisions may occur!"; } }
+        public string DisplayName { get { return "带中央转向道的四车道公路"; } }
+        public string Description { get { return "一条有转弯车道和停车位的四车道道路。 支持中等流量。 注意：转弯车道是双向的，因此可能会发生碰撞！"; } }
         public string ShortDescription { get { return "Parkings, zoneable, medium traffic; turning lane works both ways and could cause collisions"; } }
         public string UICategory { get { return "RoadsMedium"; } }
 

@@ -16,7 +16,7 @@ namespace Transit.Addon.RoadExtensions.Roads.SmallHeavyRoads.OneWay4L
         public string BasedPrefabName { get { return NetInfos.Vanilla.ONEWAY_2L; } }
         public string Name { get { return "Oneway4L"; } }
         public string DisplayName { get { return "四线单行路"; } }
-        public string Description { get { return "A four-lane one-way road without parkings spaces. Supports medium traffic."; } }
+        public string Description { get { return "一条四车道的单向道路，没有停车位。 支持中等交通流量。"; } }
         public string ShortDescription { get { return "No parking, zoneable, medium traffic"; } }
         public string UICategory { get { return RExExtendedMenus.ROADS_SMALL_HV; } }
 
