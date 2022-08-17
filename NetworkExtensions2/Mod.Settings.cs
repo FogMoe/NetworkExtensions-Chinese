@@ -37,18 +37,18 @@ namespace NetworkExtensions
             {
                 if (module.Name == "Roads")
                 {
-                    addTab(strip, strip.tabCount, module, "小巷", "RoadsTiny");
+                    addTab(strip, strip.tabCount, module, "小型街道", "RoadsTiny");
                     addTab(strip, strip.tabCount, module, "小型道路", "RoadsSmall");
                     addTab(strip, strip.tabCount, module, "小型紧凑道路", "RoadsSmallHV");
                     addTab(strip, strip.tabCount, module, "中型道路", "RoadsMedium");
                     addTab(strip, strip.tabCount, module, "大型道路", "RoadsLarge");
                     addTab(strip, strip.tabCount, module, "高速公路", "RoadsHighway");
-                    addTab(strip, strip.tabCount, module, "人行道", "RoadsPedestrians");
+                    addTab(strip, strip.tabCount, module, "人行街道", "RoadsPedestrians");
                     addTab(strip, strip.tabCount, module, "公交车道", "RoadsBusways");
                 }
                 else if (module.Name == "Tools")
                 {
-                    addTab(strip, strip.tabCount, module, "工具");
+                    addTab(strip, strip.tabCount, module, "工具栏");
                 }
             }
         }
