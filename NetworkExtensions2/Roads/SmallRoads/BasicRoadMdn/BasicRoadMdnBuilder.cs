@@ -13,7 +13,7 @@ namespace Transit.Addon.RoadExtensions.Roads.SmallRoads.BasicRoadMdn
         public int Order { get { return 9; } }
         public string BasedPrefabName { get { return NetInfos.Vanilla.ROAD_2L; } }
         public string Name { get { return "BasicRoadMdn"; } }
-        public string DisplayName { get { return "双车道+中间绿化带公路"; } }
+        public string DisplayName { get { return "双车道公路+中央分隔带"; } }
         public string ShortDescription { get { return "No parking, zoneable, low traffic"; } }
         public NetInfoVersion SupportedVersions { get { return NetInfoVersion.AllWithDecoration; } }
 
@@ -26,7 +26,7 @@ namespace Transit.Addon.RoadExtensions.Roads.SmallRoads.BasicRoadMdn
                     UICategory = "RoadsSmall",
                     UIOrder = 10,
                     Name = "BasicRoadMdn",
-                    DisplayName = "Basic Road with Median",
+                    DisplayName = "双车道公路+中央分隔带",
                     Description = "A basic two lane road with a median and no parkings spaces. Supports local traffic.",
                     ThumbnailsPath = @"Roads\SmallRoads\BasicRoadMdn\thumbnails.png",
                     InfoTooltipPath = @"Roads\SmallRoads\BasicRoadMdn\infotooltip.png"
@@ -36,7 +36,7 @@ namespace Transit.Addon.RoadExtensions.Roads.SmallRoads.BasicRoadMdn
                     UICategory = "RoadsSmall",
                     UIOrder = 11,
                     Name = "BasicRoadMdn Decoration Grass",
-                    DisplayName = "Basic Road with Grass Median",
+                    DisplayName = "双车道公路+中央绿化分隔带",
                     Description = "A basic two lane road with a grass median and no parkings spaces. Supports local traffic.",
                     ThumbnailsPath = @"Roads\SmallRoads\BasicRoadMdn\thumbnails_grass.png",
                     InfoTooltipPath = @"Roads\SmallRoads\BasicRoadMdn\infotooltip_grass.png"
@@ -46,7 +46,7 @@ namespace Transit.Addon.RoadExtensions.Roads.SmallRoads.BasicRoadMdn
                     UICategory = "RoadsSmall",
                     UIOrder = 12,
                     Name = "BasicRoadMdn Decoration Trees",
-                    DisplayName = "Basic Road with Grass Median and Trees",
+                    DisplayName = "双车道公路+中央行道树分隔带",
                     Description = "A basic two lane road with a grass median, trees and no parkings spaces. Supports local traffic.",
                     ThumbnailsPath = @"Roads\SmallRoads\BasicRoadMdn\thumbnails_trees.png",
                     InfoTooltipPath = @"Roads\SmallRoads\BasicRoadMdn\infotooltip_trees.png"

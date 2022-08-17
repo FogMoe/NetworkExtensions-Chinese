@@ -157,7 +157,7 @@ namespace Transit.Addon.RoadExtensions.Roads.Avenues.MediumAvenue4L
             var avenue4L = Prefabs.Find<NetInfo>(NetInfos.Vanilla.ROAD_4L, false);
             if (avenue4L != null)
             {
-                avenue4L.ModifyTitle("Four-Lane Road with Median");
+                avenue4L.ModifyTitle("四车道公路+中央分隔带");
             }
         }
     }

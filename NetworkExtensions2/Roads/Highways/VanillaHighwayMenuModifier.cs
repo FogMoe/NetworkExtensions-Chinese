@@ -27,7 +27,7 @@ namespace Transit.Addon.RoadExtensions.Roads.Highways
                 var thumbnails = AssetManager.instance.GetThumbnails(NetInfos.Vanilla.HIGHWAY_3L, @"Roads\Highways\Highway3L\thumbnails.png");
                 highway3L.m_Atlas = thumbnails;
                 highway3L.m_Thumbnail = thumbnails.name;
-                highway3L.ModifyTitle("Three-Lane Highway");
+                highway3L.ModifyTitle("三车道高速公路");
             }
 
             var highway3LBarrier = Prefabs.Find<NetInfo>(NetInfos.Vanilla.HIGHWAY_3L_BARRIER, false);
@@ -37,7 +37,7 @@ namespace Transit.Addon.RoadExtensions.Roads.Highways
                 var thumbnails = AssetManager.instance.GetThumbnails(NetInfos.Vanilla.HIGHWAY_3L_BARRIER, @"Roads\Highways\Highway3LBarrier\thumbnails.png");
                 highway3LBarrier.m_Atlas = thumbnails;
                 highway3LBarrier.m_Thumbnail = thumbnails.name;
-                highway3LBarrier.ModifyTitle("Three-Lane Highway with Sound Barrier");
+                highway3LBarrier.ModifyTitle("带隔音板的三车道高速公路");
             }
         }
     }

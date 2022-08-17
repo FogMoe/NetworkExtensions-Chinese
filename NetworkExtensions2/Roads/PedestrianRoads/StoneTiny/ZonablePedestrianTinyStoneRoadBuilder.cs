@@ -15,7 +15,7 @@ namespace Transit.Addon.RoadExtensions.Roads.PedestrianRoads.StoneTiny
         public const string NAME = "Zonable Pedestrian Stone Tiny Road";
         public string BasedPrefabName { get { return NetInfos.Vanilla.ROAD_2L; } }
         public string Name { get { return NAME; } }
-        public string DisplayName { get { return "小型石质双向步行街"; } }
+        public string DisplayName { get { return "小型石路双向人行窄道"; } }
         public string Description { get { return "Stone pedestrian Roads are only accessible to pedestrians and emergency vehicles"; } }
         public string ShortDescription { get { return "Zoneable, No Passenger Vehicles [Traffic++ V2 required]"; } }
         public string UICategory { get { return RExExtendedMenus.ROADS_PEDESTRIANS; } }

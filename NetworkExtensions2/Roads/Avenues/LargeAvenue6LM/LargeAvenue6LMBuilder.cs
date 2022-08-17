@@ -19,7 +19,7 @@ namespace Transit.Addon.RoadExtensions.Roads.Avenues.LargeAvenue6LM
 
         public string BasedPrefabName { get { return NetInfos.Vanilla.ROAD_4L; } }
         public string Name { get { return "Six-Lane Avenue Median"; } }
-        public string DisplayName { get { return "六车道+中间线公路"; } }
+        public string DisplayName { get { return "六车道公路+中央分隔带"; } }
         public string Description { get { return "A Six-lane road with paved median. Supports heavy urban traffic."; } }
         public string ShortDescription { get { return "No parking, zoneable, heavy urban traffic"; } }
         public string UICategory { get { return "RoadsLarge"; } }
