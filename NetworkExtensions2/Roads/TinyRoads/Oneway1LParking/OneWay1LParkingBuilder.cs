@@ -13,7 +13,7 @@ namespace Transit.Addon.RoadExtensions.Roads.TinyRoads.Oneway1LParking
 {
     public class Oneway1LParkingBuilder : Activable, INetInfoBuilderPart, INetInfoLateBuilder
     {
-        public const string NAME = "带路边停车带的单线单行道小巷";
+        public const string NAME = "单线单行道+停车专用道小巷";
 
         public int Order { get { return 1; } }
         public int UIOrder { get { return 10; } }

@@ -12,8 +12,8 @@ namespace Transit.Addon.RoadExtensions.Roads.TinyRoads.Plain2L
 
         public string BasedPrefabName { get { return NetInfos.Vanilla.ROAD_2L_GRAVEL; } }
         public string Name { get { return "PlainStreet2L"; } }
-        public string DisplayName { get { return "双车道停车带大街"; } }
-        public string Description { get { return "一条没有人行道的双车道停车位街道。可承受低交通流量。"; } }
+        public string DisplayName { get { return "双车道大街"; } }
+        public string Description { get { return "一条只能是平的，有路边停车带，没有人行道的双车道街道。可承受低交通流量。"; } }
         public string ShortDescription { get { return "Parking, zoneable, low traffic"; } }
         public string UICategory { get { return RExExtendedMenus.ROADS_TINY; } }
 
